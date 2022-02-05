@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Indie+Flower&family=Lobster&family=Montserrat&family=Neonderthaw&family=Rubik+Beastly&family=Sorts+Mill+Goudy:ital@1&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="checkout-title">Checkout</h1>
+    </div>
+    
+    <main>
+
+            <form action="result.html">
+                <div id="contact-information" class="data-form">
+                    <h2 class="form-h2">Contact Information</h2>
+
+
+                    <label for="email">E-Mail</label> <br>
+                    <div class="input-field">
+                        
+                        <i class="fa fa-envelope-o"></i>
+                        <input type="email" name="email" id="email" placeholder="Enter your E-Mail">
+                        
+                    </div>
+
+
+
+
+                    <label for="phone">Phone</label> <br>
+                    <div class="input-field">
+                        
+                        <i class='fas fa-phone-alt'></i>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your Phone">
+                        
+                    </div> 
+                </div>
+                
+
+
+                <div class="data-form" id="shipping-address">
+                    <h2 class="form-h2">Shipping Address</h2>
+
+                    <label for="fullname">Full Name</label> <br>
+                    <div class="input-field">
+                        
+                        <i class="material-icons">person</i>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your Fullname">
+                        
+                    </div> 
+
+
+
+                    <label for="address">Address</label> <br>
+                    <div class="input-field">
+                        
+                        <i class='fas fa-home'></i>
+                        <input type="text" name="address" id="address" placeholder="Enter your Address">
+                    </div> 
+
+
+
+                    <label for="city">City</label> <br>
+                    <div class="input-field">
+                        
+                        <i class='fas fa-city'></i>
+                        <input type="text" name="city" id="city" placeholder="Enter your City">
+                        
+                    </div> 
+                </div>
+
+
+
+                
+                <div class=".campo" id="country-field">
+                    <label for="country">Country</label>  <br>
+
+                    <div class="input-field"> 
+                        <i class='fas fa-globe-africa'></i>
+                    
+                        <select name="country" id="country">
+                            <option value="Turkey" selected>Turkey</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="Italy">Italy</option>
+                            <option value="USA">USA</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Findland">Findland</option>
+                        </select>
+                    </div>                    
+                </div>
+                
+
+                <div class="campo" id="postal-code-field">
+
+                    <label for="postcode" id="postcode-label">Post Code</label> 
+                    <div class="input-field"> 
+
+                        <i class='fas fa-mail-bulk'></i>
+                    
+                        <input type="text" name="postcode" id="postcode" placeholder="Enter your postal code">
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="campo" id="checkbox-conteyner">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox" id="ckeckbox-label">See this information next time</label>
+
+                </div>
+
+                <div class="div-continue">
+                    <input type="submit" value="Continue" class="button-continue">
+                    
+                </div>
+                
+            </form>
+      
+
+
+
+
+        <section class="section-right">
+
+            <div class="product">
+                <img src="images/foto-backbag.jpg" alt="backbag" class="image1">
+
+                <div class="product-info">
+                    <h2 class="product-h2">Vintage Backbag</h2>
+                    <p>
+                        <strong>$54.99</strong>
+                        <span class="line-through">$94.99</span>
+                    </p>
+
+                    <div class="quantity-controller">
+                                <button class="product__button">
+                                   
+                                        <i class="fa fa-minus-square-o" style="font-size:20px"></i>
+                                </button>
+
+                                <p>1</p>
+
+                                <button class="product__button">
+                                    <i class='far fa-plus-square' style='font-size:20px'>
+                                    </i>
+                                </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="product">
+                <img src="images/foto-shoe.jfif" alt="foto-shoe" class="image2">
+
+                <div class="product-info">
+                    <h2 class="product-h2">Levi Shoes</h2>
+                    <p>
+                        <strong>$74.99</strong>
+                        <span class="line-through">$124.99</span>
+                    </p>
+
+                    <div class="quantity-controller">
+
+                        <button class="product__button">
+                                   
+                            <i class="fa fa-minus-square-o" style="font-size:20px"></i>
+                        </button>
+
+                        <p>1</p>
+
+                        <button class="product__button">
+                            <i class='far fa-plus-square' style='font-size:20px'>
+                            </i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div id="shipping" class="buy-detail">
+                <p  class="pleft">Shipping</p>
+                <p  class="pright">$19</p>
+            </div>
+
+            <div id="total" class="buy-detail">
+                <p  class="pleft">Total</p>
+                <p  class="pright">$148.98</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+</body>
+</html>

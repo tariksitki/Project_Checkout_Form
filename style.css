@@ -1,0 +1,365 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+body {
+    width: 100%;
+}
+
+main {
+    height: 34rem;
+    width: 54rem;
+    /* margin: 2rem 0rem; */
+    margin: auto;
+    /* background-color: cadetblue; */
+}
+
+.checkout-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    height: 2.5rem;
+    width: 100%;
+    margin: 1rem 0rem 1rem;
+    background-color: #eee;
+
+}
+
+form {
+    float: left;
+    height: auto;
+    width: 42%;
+    margin: 2rem 1rem 0rem 3rem ;
+    min-height: auto;
+    min-width: auto;
+    /* background-color: aqua; */
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.form-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    height: 1.4rem;
+    width: 20rem;
+    margin: 1rem 0rem;
+    /* background-color: bisque; */
+    text-align: left;
+}
+
+
+#email,
+#phone,
+#fullname,
+#address,
+#city {
+    height: 90%;
+    width: 92%;
+    padding: 0.5rem 0.3rem 0.5rem 2.1rem;
+    /* display: inline-block; */
+    cursor: text;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.2rem;
+    border: none;
+    font-size: 12px;
+}
+
+
+.input-field {
+    display: flex;
+    align-items: center;
+    /* background-color: bisque; */
+    width: 100%;
+    height: 2.0rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 7px;
+
+}
+
+
+
+
+.input-field:hover,
+#email:hover,
+#phone:hover,
+#fullname:hover,
+#address:hover,
+#city:hover {
+    background-color: #eee;
+
+}
+
+.input-field:hover {
+    box-shadow: 3px 3px #fd9e4b;
+}
+
+
+.fa-envelope-o,
+.fa-phone-alt,
+.material-icons,
+.fa-home,
+.fa-city,
+.fa-globe-africa,
+.fa-mail-bulk {
+    /* background-color: bisque; */
+    width: 1rem;
+    height: 1rem;
+    opacity: 0.4;
+
+}
+
+#country-field {
+    float: left;
+    display: inline-block;
+    height: 4.4rem;
+    width: 9.5rem;
+    margin: 10px 0rem 10px 0px;
+    /* background-color: cornflowerblue; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#postal-code-field {
+    float: right;
+    /* clear: right; */
+    /* display: inline-block; */
+    height: 4.4rem;
+    width: 11rem;
+    margin: 10px 0rem;
+    /* background-color: chocolate; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#checkbox-conteyner {
+    width: 20rem;
+    /* background-color: bisque; */
+    height: 3rem;
+    /* margin-top: 5rem; */
+    clear: both;
+    display: flex;
+    align-items: center;
+
+}
+
+#checkbox {
+    width: 2rem;
+
+}
+
+#postcode,
+#country {
+    /* border: 1px solid #828282;
+    border-radius: 5px; */
+    font-size: 12px;
+
+}
+
+#postcode:hover ,
+#country:hover {
+    background-color: #eee;
+}
+
+#country {
+    width: 7rem;
+    height: 90%;
+    border: none;
+}
+
+label {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#postcode {
+    width: 9rem;
+    height: 90%;
+    border: none;
+
+}
+
+
+  
+
+.section-right {
+    float: right;
+    background-color: #eee;
+    height: 23rem;
+    width: 20rem;
+    padding: 1rem 2rem;
+    margin-right: 5rem;
+    /* position: absolute; */
+    /* top: 0rem; */
+    /* bottom: 14rem; */
+    /* right: -3.4rem; */
+    /* left: 0rem; */
+    /* display: flex; */
+    border-radius: 10px;
+    /* background-color: bisque; */
+    margin-top: 6.1rem;
+}
+
+
+.product {
+    height: 7rem;
+    width: 17rem;
+    margin: 0.6rem 0rem;
+    min-height: auto;
+    min-width: auto;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.image1,
+.image2 {
+    height: 7rem;
+    width: 5.1rem;
+    /* margin: 0rem 0rem 0rem 0rem ; */
+    min-height: auto;
+    /* min-width: auto; */
+    /* display: block; */
+    border-radius: 10px;
+    float: left;
+}
+
+
+.product-info {
+    height: 7rem;
+    width: 10.75rem;
+    min-height: auto;
+    min-width: auto;
+    /* display: block; */
+    float: right;
+    /* background-color: red; */
+    margin-left: 1rem;
+}
+
+
+
+
+.product-h2 {
+    font-weight: 700;
+    height: 19px;
+    width: 10.75rem;
+    /* display: block; */
+    margin: 5px 0px;
+    font-size: 14px;
+
+}
+
+.product-info p {
+    font-size: 12px;
+    height: 1.2rem;
+    width: 10.75rem;
+    margin: 5px 0px;
+
+    
+}
+
+strong {
+    font-size: 14px;
+    color: #f2994a;
+    font-weight: 600;
+}
+
+span {
+    text-decoration: line-through solid;
+    font-size: 11px;
+
+}
+
+.quantity-controller {
+    height: 2.2rem;
+    width: 6.4rem;
+    border: 1px solid #888888;
+    margin: 0rem 0 0 0;
+    border-radius: 5px;
+    font-size: 16px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    /* display: inline-block; */
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.product__button {
+    font-size: 13.3px;
+    text-align: center;
+    /* background-color: #e0e0e0; */
+    height: 25px;
+    width: 1.3rem;
+    margin: 5px 1rem;
+    /* padding: 5px; */
+    border-radius: 6px;
+    border: none;
+
+}
+
+
+
+i:hover {
+    /* width: 22px;
+    height: 22px; */
+    cursor: pointer;
+}
+
+.buy-detail {
+    display: flex;
+    height: 1.2rem;
+    width: 16rem;
+    border-top: 1px solid #bdbdbd;
+    margin: 0rem 0rem 0.4rem 0rem;
+    font-size: 15px;
+
+}
+
+#shipping {
+    margin-top: 2rem;
+}
+
+.pright {
+    text-align: end;
+}
+
+
+.button-continue {
+    width: 100%;
+    height: 100%;
+    background-color: #fd9e4b;
+    border-radius: 8px;
+    border: none;
+    color: #eee;
+    transition: all 400ms;
+}
+
+.button-continue:hover {
+    width: 110%;
+    height: 110%;
+    transition: all 400ms;
+    cursor: pointer;
+    background-color: white;
+    color: #fd9e4b;
+    border: 2px solid #fd9e4b;
+    font-weight: 700;
+}
+
+
+
+.div-continue {
+    width: 5rem;
+    height: 2rem;
+    margin: 0px auto;
+    border-radius: 10px;
+
+}   
