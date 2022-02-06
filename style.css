@@ -39,7 +39,7 @@ form {
     min-height: auto;
     min-width: auto;
     /* background-color: aqua; */
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form-h2 {
@@ -51,24 +51,6 @@ form {
     margin: 1rem 0rem;
     /* background-color: bisque; */
     text-align: left;
-}
-
-
-#email,
-#phone,
-#fullname,
-#address,
-#city {
-    height: 90%;
-    width: 92%;
-    padding: 0.5rem 0.3rem 0.5rem 2.1rem;
-    /* display: inline-block; */
-    cursor: text;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 0.2rem;
-    border: none;
-    font-size: 12px;
 }
 
 
@@ -103,6 +85,34 @@ form {
 }
 
 
+
+#email,
+#phone,
+#fullname,
+#address,
+#city {
+    height: 90%;
+    width: 92%;
+    padding: 0.5rem 0.3rem 0.5rem 2.1rem;
+    /* display: inline-block; */
+    cursor: text;
+    /* border-radius: 5px; */
+    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 0.2rem; */
+    border: none;
+    font-size: 12px;
+}
+
+#fullname:focus {
+
+
+    border: 0px solid white;
+
+}
+
+
+
+
 .fa-envelope-o,
 .fa-phone-alt,
 .material-icons,
@@ -114,7 +124,7 @@ form {
     width: 1rem;
     height: 1rem;
     opacity: 0.4;
-
+    /* background-color: #f2994a; */
 }
 
 #country-field {
@@ -183,11 +193,10 @@ label {
     width: 9rem;
     height: 90%;
     border: none;
-
 }
 
 
-  
+
 
 .section-right {
     float: right;
@@ -214,7 +223,7 @@ label {
     margin: 0.6rem 0rem;
     min-height: auto;
     min-width: auto;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -261,7 +270,7 @@ label {
     width: 10.75rem;
     margin: 5px 0px;
 
-    
+
 }
 
 strong {
@@ -362,4 +371,4 @@ i:hover {
     margin: 0px auto;
     border-radius: 10px;
 
-}   
+}
